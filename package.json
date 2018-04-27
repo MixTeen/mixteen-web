@@ -1,0 +1,18 @@
+{
+  "name": "mixteen-web",
+  "version": "1.0.0",
+  "description": "Des ressources pour apprendre à développer avec les langages du web",
+  "main": "index.html",
+  "directories": {
+    "doc": "doc",
+    "src": "src"
+  },
+  "scripts": {
+    "serveur": "node node_modules/http-server/bin/http-server src -p 3042"
+  },
+  "author": "Guillaume EHRET <guillaume@dev-mind.fr>",
+  "license": "Apache",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

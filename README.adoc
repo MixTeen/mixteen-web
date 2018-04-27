@@ -1,0 +1,93 @@
+image::logo.png[MixTeen]
+
+= Résumé
+
+Ce projet a été créé pour rassembler des ressources detinées à aider les ados à comprendre comment fonctionne le web et comment écrire une application Web en HTML / CSS et JavaScript (JS), les langages du web.
+
+Si tu as des questions tu peux contacter les personnes qui ont participé à ce projet.
+
+* mailto:guillaume@dev-mind.fr[Guillaume EHRET]
+
+D'ailleurs ce projet est open source (licence Apache) et tu es libre de participer
+
+= Technique
+
+== Navigateur supporté
+
+Comme ce projet est destiné à former les jeunes pousses, nous nous focalisons uniquement sur les navigateurs modernes et les dernières versions de
+
+* Firefox
+* Chromium
+* Google Chrome
+* Edge
+* Safari
+
+== Découpage du projet
+
+à documenter
+
+== Faire les ateliers
+
+Un ordinateur est une machine qui n'interprète que des 0 ou des 1. Quand tu développes une application, tu ne programmes pas en utilisant le langage machine. Tu vas plutôt utiliser un langage de plus haut niveau, un langage compréhensible de tous ou presque :-) (il faut souvent avoir quelques notions d'anglais)
+
+Quand on programme un site web, nous utilisons 3 langages le HTML, le CSS et le JavaScript. Pour faire les ateliers tu peux aller sur le site https://jsfiddle.net/ qui permet de programmer plus facilement une page
+
+== Créer de nouveaux ateliers
+
+Pour créer de nouveaux ateliers, tu peux aussi programmer en dehors d'un navigateur en utilisant un logiciel de programmation
+
+* Atom
+* Webstorm
+* Visual Studio Code
+* ...
+
+Les ressources que tu écrits pour créer une application web (JavaScript, HTML, CSS, images...) sont mises à disposition d'un navigateur Internet par un serveur web. Chaque exemple propose un script qui permet de lancer un serveur en local sur ta machine.
+
+=== Installation de Node
+
+Pour lancer un serveur web, nous allons utiliser une application qui s'appelle https://nodejs.org/en/[Node]. Tu dois aller sur leur https://nodejs.org/en/[site], le télécharger et l'installer.
+
+Une fois qu'il est installé tu peux lancer la commande suivante dans un terminal
+
+[source, shell, subs="none"]
+----
+node --version
+----
+
+Si tout s'est bien passé tu dois voir un numéro s'afficher. Par exemple `v9.5.0`
+
+=== Récupérer les sources su projet
+
+Pour récupérer les sources sur ton poste, tu dois avoir le logiciel https://git-scm.com/[Git]. https://git-scm.com/[Git] est le gestionnaire de source que nous utilisons.
+
+Les sources sont disponibles sous Github et pour cloner le projet en local sur ton poste tu peux lancer la commande
+
+[source, shell, subs="none"]
+----
+git clone https://github.com/MixTeen/mixteen-web.git
+----
+
+=== Lancer les exemples
+
+Une fois que tu as récupéré les sources du projet sur ton poste, tu peux lancer le serveur web en lançant les commandes suivantes. Le prérequis est de lancer les commandes dans un terminal une fois que tu es dans le répertoire où tu as télécharger le projet
+
+* Dans un terminal je me place dans mon projet (le répertoire ci dessous n'est valable que sous mon ordinateur. Tu dois renseigner ton répertoire)
+[source, shell, subs="none"]
+----
+cd /home/guillaume/web/mixteen-web
+----
+
+* Installation des librairies et du serveur web
+[source, shell, subs="none"]
+----
+npm install
+----
+
+* Lancer le serveur
+[source, shell, subs="none"]
+----
+npm run server
+----
+
+Voila le serveur est installé et tu peux maintenant ouvrir la page d'accueil dans ton navigateur (http://127.0.0.1:3042) et ajouter de nouveaux exemples
+
