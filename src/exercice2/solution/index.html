@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Jeu de memory</title>
+    <link rel="stylesheet" href="../../ressources/css/mixteen.css">
+    <script src="../../ressources/js/mixteen.js"></script>
+</head>
+<body>
+
+<section>
+    <h1>Jeu de memory</h1>
+
+    <p><b>Règles du jeu</b></p>
+    <p>
+        Toutes les cartes sont étalées faces cachées. Retourne deux cartes. Si c'est la même image qui apparaît sur les deux
+        cartes, tu gagnes les cartes. Si les deux cartes ne vont pas ensemble,
+        elles disparaissent au bout de 2 secondes et tu devras retenter ta chance. Essayes de retrouver les cartes le plus
+        rapidement possible.
+    </p>
+
+    <p>Nombre de coup : <b><span id="score">0</span></b></p>
+
+    <div id="grille"></div>
+
+    <button onclick="document.location.reload()">Recommencer</button>
+</section>
+<script src="programme.js"></script>
+</body>
+</html>
