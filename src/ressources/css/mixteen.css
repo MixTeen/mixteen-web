@@ -1,0 +1,101 @@
+/**
+ * La page utilise la police Arial d'un noir modéré. La page s'applique sur tout le viewport vertical et
+ * horizontal
+ */
+html {
+  font-family: Arial;
+  color: #495057;
+  text-align: center;
+  min-height: 100vh;
+  max-height: 100vh;
+  max-width: 100vw;
+  min-width: 100vw;
+}
+
+/**
+ * Les sections sont responsives mais ont une taille limitée à 1000px
+ */
+section {
+  text-align: left;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/**
+ * Les images ne doivent pas dépasser la largeur de leur conteneur
+ */
+img {
+  max-width: 100%;
+}
+
+/**
+ * Permet d'avoir des boutons un peu plus joli que le standart
+ */
+button {
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 400;
+  padding: 0.5em;
+  line-height: 1.5;
+  border: 1px solid #aaaaaa;
+}
+
+/**
+ * Redéfini les champs de saisie
+ */
+input {
+  display: block;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  margin-bottom: 0.5em;
+}
+
+/**
+ * DEFINITION DES STYLES PROPRES AUX EXERCICES
+ */
+
+/**
+ * Surligne les messages. Pour utiliser ce style vous devez écrire <div id="message"></div> ou <p id="message"></p>
+ */
+#message{
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #c6c8ca;
+  border-radius: .25rem;
+  background-color: #eeeeee;
+}
+
+/**
+ * Définit une grille pouvant accepter 5 colonnes qui prennent chacune 20% de l'espace
+ */
+#grille {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  padding-bottom: 1em;
+}
+
+/**
+ * Une carte sera affichée dans une case de la grille
+ */
+.carte {
+  display: inline;
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  background: #cccccc;
+  border-radius: 4px;
+  border: 2px solid #aaaaaa;
+  overflow: hidden;
+}
+
+
+
+
