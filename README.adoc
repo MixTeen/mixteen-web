@@ -1,4 +1,4 @@
-image::logo.png[MixTeen]
+image::src/ressources/images/logo.png[MixTeen]
 
 = Résumé
 
