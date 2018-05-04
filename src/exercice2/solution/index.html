@@ -4,28 +4,34 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Jeu de memory</title>
+    <title>Trouver un nombre aléatoire</title>
     <link rel="stylesheet" href="../../ressources/css/mixteen.css">
     <script src="../../ressources/js/mixteen.js"></script>
 </head>
 <body>
 
 <section>
-    <h1>Jeu de memory</h1>
+    <!-- Add your site or application content here -->
+    <h1>Nombre aléatoire</h1>
 
     <p><b>Règles du jeu</b></p>
     <p>
-        Toutes les cartes sont étalées faces cachées. Retourne deux cartes. Si c'est la même image qui apparaît sur les deux
-        cartes, tu gagnes les cartes. Si les deux cartes ne vont pas ensemble,
-        elles disparaissent au bout de 2 secondes et tu devras retenter ta chance. Essayes de retrouver les cartes le plus
-        rapidement possible.
+        Le but est de trouver un nombre entre 1 et 1000 en un minimum de coup
+    </p>
+
+    <p id="message">
+        Saisissez un nombre
     </p>
 
     <p>Nombre de coup : <b><span id="score">0</span></b></p>
 
-    <div id="grille"></div>
+    <input type="number" placeholder="Saisissez un nombre" id="nombre">
 
-    <button onclick="document.location.reload()">Recommencer</button>
+    <div>
+        <button onclick="jouer()">Jouer</button>
+        <button onclick="document.location.reload()">Recommencer</button>
+    </div>
+
 </section>
 <script src="programme.js"></script>
 </body>

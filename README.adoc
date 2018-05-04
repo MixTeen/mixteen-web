@@ -2,7 +2,7 @@ image::src/ressources/images/logo.png[MixTeen]
 
 = Résumé
 
-Ce projet a été créé pour rassembler des ressources detinées à aider les ados à comprendre comment fonctionne le web et comment écrire une application Web en HTML / CSS et JavaScript (JS), les langages du web.
+Ce projet a été créé pour rassembler des ressources destinées à aider les ados à comprendre comment fonctionne le web et comment écrire une application Web en HTML / CSS et JavaScript (JS), les langages du web.
 
 Si tu as des questions tu peux contacter les personnes qui ont participé à ce projet.
 
@@ -26,7 +26,8 @@ Comme ce projet est destiné à former les jeunes pousses, nous nous focalisons 
 
 Tu peux faire les exercices dans l'ordre ci dessous
 
-* Exercice 1 : Trouve un nombre entre 1 et 1000 link:src/exercice1/instructions.adoc[suivre les instructions]
+* Exercice 1 : Ma première page HTML avec JsFiddle link:src/exercice1/instructions.adoc[suivre les instructions]
+* Exercice 2 : Trouve un nombre entre 1 et 1000 link:src/exercice2/instructions.adoc[suivre les instructions]
 
 == Faire les ateliers
 
