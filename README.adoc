@@ -24,10 +24,17 @@ Comme ce projet est destiné à former les jeunes pousses, nous nous focalisons 
 
 == Découpage du projet
 
+Plusieurs fichiers sont mis à disposition pour savoir
+
+* Comment marche un ordinateur => link:src/doc/chapitre0_comment_marche_un_ordinateur.pdf[voir]
+* Comment marche Internet => link:src/doc/chapitre1_comment_marche_Internet.pdf[voir]
+* Comment marche le Web => link:src/doc/chapitre2_comment_marche_le_web.pdf[voir]
+
+
 Tu peux faire les exercices dans l'ordre ci dessous
 
-* Exercice 1 : Ma première page HTML avec JsFiddle link:src/exercice1/instructions.adoc[suivre les instructions]
-* Exercice 2 : Trouve un nombre entre 1 et 1000 link:src/exercice2/instructions.adoc[suivre les instructions]
+* Exercice 1 : Ma première page HTML avec JsFiddle => link:src/exercice1/instructions.adoc[instructions]
+* Exercice 2 : Trouve un nombre entre 1 et 1000 => link:src/exercice2/instructions.adoc[instructions]
 
 == Faire les ateliers
 

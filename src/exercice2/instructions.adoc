@@ -96,4 +96,33 @@ image::images/exemple3.png[Utilisation de style, 500]
 
 == Etape 3 : Utiliser JavaScript pour rendre les choses dynamiques
 
-TODO
+Pour le moment il ne se passe rien quand on clique sur le bouton jouer. On va utiliser du JavaScript pour donner de la vie à cette page et la rendre plus dynamique
+
+=== Mes premiers pas en Javascript
+
+. Avant de commencer comme tu es maintenant un vrai développeur Web qui fait du HTML, du CSS et maintenant du JavaScript, nous allons ouvrir la console développeur. Pour celà tape en même temps sur les touches image:images/keys.png[Ctrl + Shift + K, 120]. Une fenêtre doit apparaître en bas du navigateur. C'est la console des développeurs image:images/firefox_console.png[Console Firefox]
+
+. Tu peux écrire maintenant dans la zone JsFiddle réservée à JavaScript l'instruction `console.log('Bonjour tout le monde')`
+
+. Une fois que c'est fait clique sur le bouton image:images/jsfiddle_03.png[Run, 50]. Normalement tu dois voir le message _Bonjour tout le monde_ dans la console
+
+Le but n'est pas d'expliquer tout JavaScript ici si tu veux en savoir plus je te conseille de suivre la présentation mais voici un exemple de code
+
+[source,javascript]
+----
+
+/* Tout ce qui est entre / * et * / est un commentaire. Il en est de même pour tout ce qui suit // */
+// Le langage utilise beaucoup d'anglais :-(
+
+/* En Javascript on peut créer des variables. Une variable est comme un sac qui peut contenir soit rien, soit un nombre, soit du texte (on parle de chaîne de caractères), soit vraie ou faux (on parle de booléen et en anglais on écrit true ou false). Ce sac peut avoir un nom */
+let nom = "MiXTeen"
+let age = 12
+let estMajeur = false
+let sac = undefined // Correspond à vide
+
+----
+
+
+
+https://jsfiddle.net/k6toyssv/
+
