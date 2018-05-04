@@ -24,7 +24,9 @@ Comme ce projet est destiné à former les jeunes pousses, nous nous focalisons 
 
 == Découpage du projet
 
-à documenter
+Tu peux faire les exercices dans l'ordre ci dessous
+
+* Exercice 1 : Trouve un nombre entre 1 et 1000 link:src/exercice1/instructions.adoc[suivre les instructions]
 
 == Faire les ateliers
 

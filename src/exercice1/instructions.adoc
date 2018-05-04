@@ -111,7 +111,7 @@ input {
 
 Après ce coup de peinture en utilisant des styles ta page doit ressembler à
 
-image::images/exemple1.png[Utilisation de style, 500]
+image::images/exemple3.png[Utilisation de style, 500]
 
 
 == Etape 3 : Utiliser JavaScript pour rendre les choses dynamiques
