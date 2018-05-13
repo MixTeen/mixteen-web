@@ -146,14 +146,30 @@ Ecrit une condition avec les mots clés `if` et `else` qui traduisent
 
 === Utiliser les fonctions
 
+Déplace les conditions que tu as écrites précédemment dans une fonction que tu peux appeler _verifierResultat_. Cette fonction acceptera un paramètre qui est le nombre saisi
+
 [source,javascript]
 ----
-
-
-
+function verifierResultat(nombreSaisi){
+    // conditions...
+}
 ----
 
+Ecrit 3 appels de cette fonction
+[source,javascript]
+----
+verifierResultat(450);
+verifierResultat(800);
+verifierResultat(586);
+----
 
+Quand tu exécutes le code en cliquant sur image:images/jsfiddle_03.png[Run, 50] tu dois voir dans l'ordre les messages suivants dans la console:
+
+* __C’est plus__
+* __C’est moins__
+* __Tu as gagné__
+
+=== Récupérer
 
 https://jsfiddle.net/k6toyssv/
 
