@@ -29,6 +29,7 @@ Plusieurs fichiers sont mis à disposition pour savoir
 * Comment marche un ordinateur => link:src/doc/chapitre0_comment_marche_un_ordinateur.pdf[voir]
 * Comment marche Internet => link:src/doc/chapitre1_comment_marche_Internet.pdf[voir]
 * Comment marche le Web => link:src/doc/chapitre2_comment_marche_le_web.pdf[voir]
+* Comment programmer en HTML => link:src/doc/chapitre3_comment_programmer_en_HTML.pdf[voir] / link:src/doc/chapitre3_comment_programmer_en_HTML_annexe.pdf[recapitulatif]
 
 
 Tu peux faire les exercices dans l'ordre ci dessous

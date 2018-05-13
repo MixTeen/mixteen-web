@@ -106,19 +106,50 @@ Pour le moment il ne se passe rien quand on clique sur le bouton jouer. On va ut
 
 . Une fois que c'est fait clique sur le bouton image:images/jsfiddle_03.png[Run, 50]. Normalement tu dois voir le message _Bonjour tout le monde_ dans la console
 
-Le but n'est pas d'expliquer tout JavaScript ici si tu veux en savoir plus je te conseille de suivre la présentation mais voici un exemple de code
+
+=== Définir une variable
+
+Nous allons essayer d'aller plus loin
+
+. Crée une variable qui se nomme _nom_ et qui aura la valeur _'Mixteen'_. Tu peux modifier l'instruction précédente `console.log('Bonjour tout le monde')` pour qu'elle affiche maintenant la valeur de ta variable et le message _'Bonjour MixTeen'_
+
+. N'oublie pas de sauvegarder régulièrement ton travail en appuyant sur le bouton image:images/jsfiddle_05.png[Enregistrer, 50]
+
+. Crée une deuxième variable qui se nomme __nombreAleatoire__ et qui va prendre pour le moment une valeur fixe. Par exemple _586_. Utilise l'instruction `console.log` pour afficher le message _'Le nombre aléaoire est 586'_ (586 étant la valeur de cette nouvelle variable)
+
+. Tu peux créer une dernière valeur qui va se nommer _nombreSaisi_. Cette variable sera liée plus tard au champ de saisie que tu as mis dans ta page HTML. Tu peux pour le moment attribuer la valeur 450 et afficher le message _'Le nombre saisi est 450'_
+
+Une fois que tu as terminé tu dois voir affiché dans la console développeur
+
+image::images/javascript_exercice_variable.png[Affichage de variables dans la console, 500]
+
+=== Utiliser des conditions
+
+Il est temps d'utiliser des conditions pour savoir si le nombre saisi est trop petit, trop grand ou exact
+
+Ecrit une condition avec les mots clés `if` et `else` qui traduisent
+[source,txt]
+----
+    SI nombreSaisi EGAL A nombreAleatoire ALORS
+        j'affiche dans la console le message 'Tu as gagné'
+    SINON SI nombreSaisi INFERIEUR A nombreAleatoire ALORS
+        j'affiche dans la console le message 'C'est plus'
+    SINON
+        j'affiche dans la console le message 'C'est moins'
+----
+
+. Tu peux exécuter le code en cliquant sur image:images/jsfiddle_03.png[Run, 50]. Si tu as respecté les instructions de l'étape précédente tu devrais voir le message _C'est plus_
+
+. Change la valeur de la variable _nombreSaisi_, et indique _800_. Si tu recliques sur le bouton d'exécution tu devrais le message _C'est moins_
+
+. Change la valeur de la variable _nombreSaisi_, et indique _586_. Si tu recliques sur le bouton d'exécution tu devrais le message _Tu as gagné_
+
+=== Utiliser les fonctions
 
 [source,javascript]
 ----
 
-/* Tout ce qui est entre / * et * / est un commentaire. Il en est de même pour tout ce qui suit // */
-// Le langage utilise beaucoup d'anglais :-(
 
-/* En Javascript on peut créer des variables. Une variable est comme un sac qui peut contenir soit rien, soit un nombre, soit du texte (on parle de chaîne de caractères), soit vraie ou faux (on parle de booléen et en anglais on écrit true ou false). Ce sac peut avoir un nom */
-let nom = "MiXTeen"
-let age = 12
-let estMajeur = false
-let sac = undefined // Correspond à vide
 
 ----
 
