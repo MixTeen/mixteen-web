@@ -22,7 +22,7 @@ Pour créer ce jeu tu vas te baser sur https://jsfiddle.net/[Jsfiddle]. Si tu ne
 
 == Etape 2 : Création du HTML
 
-Nous allons commençons à créer le formulaire de saisie
+Nous allons commencer par créer le formulaire de saisie
 
 === Tes premières lignes de HTML
 
@@ -46,7 +46,7 @@ L'ajout d'un champ de formulaire se fait en utilisant la balise `<input>`. Cette
 
 Ton formulaire doit ressembler à ça
 
-image::images/exemple1.png[Ajout formulaire et bouton, 500]
+image::images/exemple2.png[Ajout formulaire et bouton, 500]
 
 === Si on mettait un coup de peinture
 
@@ -169,7 +169,25 @@ Quand tu exécutes le code en cliquant sur image:images/jsfiddle_03.png[Run, 50]
 * __C’est moins__
 * __Tu as gagné__
 
-=== Récupérer
+=== Préparer ta page HTML pour qu'elle utilise du JavaScript
+
+Tu vas pouvoir commencer par ajouter des identifiants (propriété `id`) à chaque élément du document HTML que nous allons manipuler dans notre code JavaScript
+
+* `<p id="message">Saisissez un nombre</p>`
+* `<p id="nombreCoups">Nombre de coups: 0</p>`
+* `<input type="number" id="nombreSaisi" placeholder="Saisissez un nombre"/>`
+
+Pour les boutons on va indiquer le nom de la fonction que l'on va appeler quand on clique dessus
+
+* `<button onclick="jouer()"/>Jouer</button>`
+* `<button onclick="recommencer()"/>Recommencer</button>`
+
+=== Ecrire les fonctions JavaScript liées aux événements
+
+Dans la partie d'avant nous avons ajouté des identifiants sur les zones de la page que nous voulons lire (champ nombre) ou écrire (le message et le score)
+
+. Ecris la fonction `jouer()`. Cette fonction commence par lire le nombre saisi dans la page via l'instruction `document.getElementById('nombreSaisi')`
+. todo
 
 https://jsfiddle.net/k6toyssv/
 

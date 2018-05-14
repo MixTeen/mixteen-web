@@ -30,12 +30,14 @@ Plusieurs fichiers sont mis à disposition pour savoir
 * Comment marche Internet => link:src/doc/chapitre1_comment_marche_Internet.pdf[voir]
 * Comment marche le Web => link:src/doc/chapitre2_comment_marche_le_web.pdf[voir]
 * Comment programmer en HTML => link:src/doc/chapitre3_comment_programmer_en_HTML.pdf[voir] / link:src/doc/chapitre3_comment_programmer_en_HTML_annexe.pdf[recapitulatif]
+* Comment programmer en JavaScript => link:src/doc/chapitre4_comment_programmer_en_JavaScript.pdf[voir]
 
 
 Tu peux faire les exercices dans l'ordre ci dessous
 
 * Exercice 1 : Ma première page HTML avec JsFiddle => link:src/exercice1/instructions.adoc[instructions]
 * Exercice 2 : Trouve un nombre entre 1 et 1000 => link:src/exercice2/instructions.adoc[instructions]
+* Exercice 3 : en cours de rédaction...
 
 == Faire les ateliers
 

@@ -1,36 +1,37 @@
 <!doctype html>
 <html>
 <head>
+    <script>
+      function changeNombre(value) {
+        console.log(value)
+      }
 
+
+    </script>
 </head>
 <body>
 <h1>Apprendre le web avec MixTeen</h1>
 
+
+
+<input id="nombreA" type="number" placeholder="Saisir un nombre A" value="10">
+<input id="nombreB" type="number" placeholder="Saisir un nombre B">
+<button onclick="additionner()">Additioner</button>
+<div id="resultat">A + B = ?</div>
+
 <script>
-  //console.log('Bonjour MixTeen');
-
-  let nom = 'Mixteen';
-  console.log(`Bonjour ${nom}`);
-
-  let nombreAleatoire = 586;
-  console.log(`Le nombre aléaoire est  ${nombreAleatoire}`);
-
-  let nombreSaisi = 450;
-  console.log(`Le nombre saisi est  ${nombreSaisi}`);
-
-  if(nombreSaisi === nombreAleatoire){
-
+  function lireNombre(id){
+    if(document.getElementById(id).value){
+      return parseInt(document.getElementById(id).value);
+    }
+    return 0;
   }
 
-  let nom = 'Paul';
-  console.log(`Bonjour ${nom}`);
-  {
-// Bloc 1
-    let nom = 'Elodie';
-    console.log(`Bonjour ${nom}`);
+  function additionner() {
+    document.getElementById('resultat').innerHTML =
+      `A + B = ${lireNombre('nombreA') + lireNombre('nombreB')}`;
   }
-  console.log(`Bonjour ${nom}`);
-
 </script>
+
 </body>
 </html>
