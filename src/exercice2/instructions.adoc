@@ -186,8 +186,40 @@ Pour les boutons on va indiquer le nom de la fonction que l'on va appeler quand 
 
 Dans la partie d'avant nous avons ajouté des identifiants sur les zones de la page que nous voulons lire (champ nombre) ou écrire (le message et le score)
 
-. Ecris la fonction `jouer()`. Cette fonction commence par lire le nombre saisi dans la page via l'instruction `document.getElementById('nombreSaisi')`
-. todo
+Ecris la fonction `jouer()`. Cette fonction
 
-https://jsfiddle.net/k6toyssv/
+* commence par lire le nombre saisi dans la page via l'instruction `document.getElementById('nombreSaisi').value` en la plaçant dans une variable nommée `nombreSaisi`
+* appelle la fonction `verifierResultat(nombreSaisi)`
+* toutes les valeurs lues dans les champs input sont considérées comme des chaines de caractères, du texte. Il faut convertir cette valeur en numérique via la fonction `parseInt`
+
+  let nombreSaisi = 0;
+  if(document.getElementById('nombreSaisi').value){
+    nombreSaisi = 	parseInt(document.getElementById('nombreSaisi').value);
+  }
+
+A cette étape du jeu tu peux déjà utiliser le champ de saisi pour tester si le nombre saisi s'approche de la solution
+
+Tu peux maintenant écrire la fonction `recommencer()`. Cette fonction peut simplement lancer l'instruction `document.location.reload()` qui recharge la page comme tu aurais pu le faire en utilisant le bouton du navigateur
+
+=== Introduire un peu d'aléas
+
+Pour le moment nous avons fixé le nombre à trouver à `586`. Pour générer un nombre alétoire en JavaScript on peut utiliser une des fonctions de l'objet Math qui fournit plusieurs utilitaire en JavaScript pour faire des calculs avancés
+
+`parseInt(Math.random() * 1000 + 1)` permet de générer un nombre entre 1 et 1000. En fait `Math.random()` génère un nombre flottant entre 0 et 1. Par exemple `0.586544333`. C'est pourquoi on le multplie par 1000 et on utilise la fonction `parseInt` pour l'arrondir
+
+C'est à toi tu peux maintenant modifier ton programme
+
+=== Afficher des messages
+
+Pour le moment les message s'affichent dans la console. De plus nous n'avons pas gérer le score..
+
+. Tu peux commencer par modifier la fonction `verifierResultat(nombreSaisi)` et écrire le message dans la zone qui a l'id `message`. Tu peux utiliser  `document.getElementById('message')` pour faire référence à la zone et utiliser `innerHTML` pour changer le contenu de la balise
+  `document.getElementById('message').innerHTML = 'Nouveau message';`
+
+. Maintenant tu vas pouvoir gérer par toi même l'ajout du score
+* déclare une variable score en haut de ton script et initialise la valeur à 0
+* à chaque fois que tu entres dans ta fonction `verifierResultat(nombreSaisi)` tu peux ajouter un à cette variable
+* à la fin de cette méthode du peux mettre à jour la zone ayant l'id `nombreCoups` dans la page via les méthodes déjà utilisées plus haut
+
+A cette étape tu dois maintenant avoir un résultat similaire à ce qu'il y a dans cette page https://jsfiddle.net/e4wxxoyc/2/
 
